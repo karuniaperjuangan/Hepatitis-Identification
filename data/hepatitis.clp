@@ -230,7 +230,7 @@
     (if (eq ?e ?maximum)
     then
         (retract *)
-        (assert (disease_is hepatitis_C))
+        (assert (disease_is hepatitis_E))
         (printout t "Hepatitis E" crlf)
     else
     (if (eq ?alc ?maximum)
