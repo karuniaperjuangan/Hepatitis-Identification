@@ -1,3 +1,6 @@
+; ; Diagnosis Hepatitis (Data Fiktif)
+; ; Karunia Perjuangan M (20/456368/TK/50498)
+
 (deftemplate person
     (slot name)
     (slot age (type INTEGER))
@@ -202,37 +205,37 @@
     =>
     (if (eq ?a ?maximum)
     then
-        (retract ?evidence_count)
+        (retract *)
         (assert (disease_is hepatitis_A))
         (printout t "Hepatitis A" crlf)
     else
     (if (eq ?b ?maximum)
     then
-        (retract ?evidence_count)
+        (retract *)
         (assert (disease_is hepatitis_B))
         (printout t "Hepatitis B" crlf)
     else
     (if (eq ?c ?maximum)
     then
-        (retract ?evidence_count)
+        (retract *)
         (assert (disease_is hepatitis_C))
         (printout t "Hepatitis C" crlf)
     else
     (if (eq ?d ?maximum)
     then
-        (retract ?evidence_count)
+        (retract *)
         (assert (disease_is hepatitis_D))
         (printout t "Hepatitis D" crlf)
     else
     (if (eq ?e ?maximum)
     then
-        (retract ?evidence_count)
+        (retract *)
         (assert (disease_is hepatitis_C))
         (printout t "Hepatitis E" crlf)
     else
     (if (eq ?alc ?maximum)
     then
-        (retract ?evidence_count)
+        (retract *)
         (assert (disease_is hepatitis_alcoholic))
         (printout t "Alcoholic Hepatitis" crlf)
     )
